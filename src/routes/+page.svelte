@@ -5,7 +5,6 @@
 	import * as Card from '$lib/components/ui/card';
 
 	let sentence = $state('');
-
 	let reformed = $state('');
 
 	async function reform(sentence: string) {
